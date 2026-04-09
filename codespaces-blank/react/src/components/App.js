@@ -34,11 +34,9 @@ const App = props =>{
     return<>
         <div>
             <h1>Study Planner</h1>
-            {loadingSubjects ? (<p>loading subjects... </p>) : 
-            (<Subjects subjects={subjects} setSubjects={setSubjects} />) }
+            {loadingSubjects ? (<p>loading subjects... </p>) : (<Subjects subjects={subjects} setSubjects={setSubjects} />) }
             <h2>Add Study Sessions</h2>
-            {loadingSessions ? (<p>loading study sessions...</p>) : 
-            (<AddStudySession subjects={subjects} studySessions={studySessions} setStudySessions={setStudySessions} />)}
+            {loadingSessions ? (<p>loading study sessions...</p>) : (<AddStudySession subjects={subjects} studySessions={studySessions} setStudySessions={setStudySessions} />)}
         </div>
     </>;
 }

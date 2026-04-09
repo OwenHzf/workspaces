@@ -89,7 +89,6 @@ const Subjects= props=>{
             </form>
             <ul>
                 {props.subjects.map((subjectsList)=>(
-                    
                     <li key={subjectsList.id}>
                         {currentId === subjectsList.id ? (
                             <>

@@ -17043,7 +17043,7 @@ const AddStudySession = (props)=>{
                         children: error
                     }, void 0, false, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 72,
+                        lineNumber: 73,
                         columnNumber: 23
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -17062,7 +17062,7 @@ const AddStudySession = (props)=>{
                                         children: "Select a subject"
                                     }, void 0, false, {
                                         fileName: "src/components/AddStudySession.js",
-                                        lineNumber: 76,
+                                        lineNumber: 79,
                                         columnNumber: 21
                                     }, undefined),
                                     props.subjects.map((subject)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
@@ -17070,19 +17070,19 @@ const AddStudySession = (props)=>{
                                             children: subject.name
                                         }, subject.id, false, {
                                             fileName: "src/components/AddStudySession.js",
-                                            lineNumber: 78,
+                                            lineNumber: 81,
                                             columnNumber: 25
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/AddStudySession.js",
-                                lineNumber: 75,
+                                lineNumber: 76,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 73,
+                        lineNumber: 74,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -17098,13 +17098,13 @@ const AddStudySession = (props)=>{
                                 required: true
                             }, void 0, false, {
                                 fileName: "src/components/AddStudySession.js",
-                                lineNumber: 84,
+                                lineNumber: 87,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 82,
+                        lineNumber: 85,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -17120,13 +17120,13 @@ const AddStudySession = (props)=>{
                                 required: true
                             }, void 0, false, {
                                 fileName: "src/components/AddStudySession.js",
-                                lineNumber: 89,
+                                lineNumber: 93,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 87,
+                        lineNumber: 91,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -17141,13 +17141,13 @@ const AddStudySession = (props)=>{
                                     })
                             }, void 0, false, {
                                 fileName: "src/components/AddStudySession.js",
-                                lineNumber: 94,
+                                lineNumber: 99,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 92,
+                        lineNumber: 97,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -17156,13 +17156,13 @@ const AddStudySession = (props)=>{
                         children: loading ? "Loading..." : "Add study session"
                     }, void 0, false, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 97,
+                        lineNumber: 103,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AddStudySession.js",
-                lineNumber: 71,
+                lineNumber: 72,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -17170,29 +17170,29 @@ const AddStudySession = (props)=>{
                         children: [
                             "Subject Name: ",
                             studySessionsList.subject_name,
-                            " Duration in Minutes: ",
+                            "Duration in Minutes: ",
                             studySessionsList.duration_minutes,
-                            " Date of Session: ",
+                            "Date of Session: ",
                             studySessionsList.session_date,
-                            " Notes: ",
+                            "Notes: ",
                             studySessionsList.notes || "no notes",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                 onClick: ()=>deleteSession(studySessionsList.id),
                                 children: "Delete"
                             }, void 0, false, {
                                 fileName: "src/components/AddStudySession.js",
-                                lineNumber: 105,
+                                lineNumber: 114,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, studySessionsList.id, true, {
                         fileName: "src/components/AddStudySession.js",
-                        lineNumber: 103,
+                        lineNumber: 109,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/AddStudySession.js",
-                lineNumber: 101,
+                lineNumber: 107,
                 columnNumber: 9
             }, undefined)
         ]
@@ -17359,7 +17359,7 @@ const Subjects = (props)=>{
                                 })
                         }, void 0, false, {
                             fileName: "src/components/Subjects.js",
-                            lineNumber: 80,
+                            lineNumber: 82,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -17368,7 +17368,7 @@ const Subjects = (props)=>{
                             children: loading ? "Loading..." : "Add Subject"
                         }, void 0, false, {
                             fileName: "src/components/Subjects.js",
-                            lineNumber: 82,
+                            lineNumber: 86,
                             columnNumber: 17
                         }, undefined)
                     ]
@@ -17389,7 +17389,7 @@ const Subjects = (props)=>{
                                             })
                                     }, void 0, false, {
                                         fileName: "src/components/Subjects.js",
-                                        lineNumber: 92,
+                                        lineNumber: 95,
                                         columnNumber: 33
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -17400,7 +17400,7 @@ const Subjects = (props)=>{
                                             })
                                     }, void 0, false, {
                                         fileName: "src/components/Subjects.js",
-                                        lineNumber: 101,
+                                        lineNumber: 99,
                                         columnNumber: 33
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -17408,7 +17408,7 @@ const Subjects = (props)=>{
                                         children: "Save"
                                     }, void 0, false, {
                                         fileName: "src/components/Subjects.js",
-                                        lineNumber: 110,
+                                        lineNumber: 103,
                                         columnNumber: 33
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -17416,7 +17416,7 @@ const Subjects = (props)=>{
                                         children: "Cancel"
                                     }, void 0, false, {
                                         fileName: "src/components/Subjects.js",
-                                        lineNumber: 114,
+                                        lineNumber: 107,
                                         columnNumber: 33
                                     }, undefined)
                                 ]
@@ -17430,7 +17430,7 @@ const Subjects = (props)=>{
                                         children: "delete subject"
                                     }, void 0, false, {
                                         fileName: "src/components/Subjects.js",
-                                        lineNumber: 122,
+                                        lineNumber: 115,
                                         columnNumber: 33
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -17444,19 +17444,19 @@ const Subjects = (props)=>{
                                         children: "Edit Subject"
                                     }, void 0, false, {
                                         fileName: "src/components/Subjects.js",
-                                        lineNumber: 126,
+                                        lineNumber: 119,
                                         columnNumber: 33
                                     }, undefined)
                                 ]
                             }, void 0, true)
                         }, subjectsList.id, false, {
                             fileName: "src/components/Subjects.js",
-                            lineNumber: 89,
+                            lineNumber: 92,
                             columnNumber: 21
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/components/Subjects.js",
-                    lineNumber: 86,
+                    lineNumber: 90,
                     columnNumber: 13
                 }, undefined)
             ]
